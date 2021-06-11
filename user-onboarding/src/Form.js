@@ -7,7 +7,7 @@ export default function Form() {
         name: '',
         email: '',
         password: '',
-        terms: false,
+        tos: false,
     };
 
     const [form, setForm] = useState(initialFormState);
